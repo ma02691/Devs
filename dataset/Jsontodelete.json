@@ -1,0 +1,20 @@
+{
+	"name": "Jsontodelete",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "datalakestorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "parameters.json",
+				"fileSystem": "parameter"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

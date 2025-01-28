@@ -1,0 +1,28 @@
+{
+	"name": "sourcefromgittostorage",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "githubpath",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"relativeurl": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "ma02691/practisedata/refs/heads/main/AdventureWorks_Products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
