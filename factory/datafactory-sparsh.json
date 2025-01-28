@@ -1,0 +1,9 @@
+{
+	"name": "datafactory-sparsh",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2699100d-52c1-427e-966e-12b87c8b88ff",
+		"tenantId": "38482d01-42f4-4682-8afb-45a6052b969d"
+	}
+}
