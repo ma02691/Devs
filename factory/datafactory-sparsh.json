@@ -4,7 +4,8 @@
 		"globalConfigurations": {
 			"factoryStagingLSReferenceName": "datalakestorage",
 			"factoryStagingLSType": "LinkedServiceReference",
-			"factoryStagingFolderPath": "bronze"
+			"factoryStagingFolderPath": "bronze",
+			"PipelineBillingEnabled": "false"
 		}
 	},
 	"location": "eastus",
