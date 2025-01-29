@@ -1,5 +1,11 @@
 {
 	"name": "datafactory-sparsh",
+	"properties": {
+		"globalConfigurations": {
+			"factoryStagingLSReferenceName": "datalakestorage",
+			"factoryStagingLSType": "LinkedServiceReference"
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
